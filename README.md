@@ -1,3 +1,8 @@
+# BY Yanhui Bian
+This repository is running with CPU, Very suitable for edge scenarios.
+My goal is designing a distributed system for edge llm inference. It must support common parallelism strategy like tensor, pipeline, data......
+The most important thing is, when user give the config of the system, (like network topology, network condition, parallelism strategy, model, GPU, ......), our system can return the **BEST DEPLOYMENT OPTIONS**, i.e., auto-deployment.
+
 # llama3 implemented from scratch
 in this file, i implemented llama3 from scratch, one tensor and matrix multiplication at a time.
 <br>
